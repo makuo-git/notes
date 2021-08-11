@@ -1,0 +1,9 @@
+#查看帮助信息
+？
+#显示当前生效配置
+display current-configuraiton
+
+进入系统视图
+sys
+
+

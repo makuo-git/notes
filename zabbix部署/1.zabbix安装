@@ -1,0 +1,4 @@
+1. 看官网安装，注意nginx里server 要写本机地址
+2. server端关闭selinux，放开10051端口
+3. agent（主机）放开10050端口（zabbix_agent.conf 填写Server地址)
+4. 交换机自动发现  #https://blog.csdn.net/a371933136/article/details/111627816?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_v2~rank_aggregation-1-111627816.pc_agg_rank_aggregation&utm_term=zabbix%E8%87%AA%E5%8A%A8%E5%8F%91%E7%8E%B0%E4%BA%A4%E6%8D%A2%E6%9C%BA&spm=1000.2123.3001.4430

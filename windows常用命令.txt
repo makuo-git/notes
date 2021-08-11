@@ -1,0 +1,61 @@
+####CMDLet使用
+结果
+#动词-名词
+get-service  #获取所有服务
+update-help -uiculture en-us #下载帮助文档，类似man手册
+get-verb #获取动作
+
+netstat /help 帮助命令的常规使用
+
+Install-WindowsFeature -name DHCP,DNS -restart
+netsh
+clear	cls
+$psversiontable #当前powershell版本
+get-winfeature 
+install-winfeature
+uninstall-winfeature
+start-service
+stop-service
+
+#####
+1.到自动启动文件夹，win + R 输入shell:getstartup
+win+r 输入regedit 打开注册表，找到以下路径
+
+2.计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+
+如图，新建一个键值对，名字可以随便取，值为你需要运行的可执行程序的路径
+#########
+
+
+########
+1. win + tab 或 alt + tab 切换窗口
+2. win + P 切换显示
+3. win + d 显示/隐藏当前窗口
+4. win + l 快速锁屏
+5. win + r 运行启动程序
+6. win + e 打开文件夹
+7. services.msc 进入服务管理
+8. nslookup
+9. taskmgr 服务器启动管理
+10. mstsc 打开远程连接
+11. netstat -an
+11. arp -a
+12. tasklist   #等于linux的ps -ef
+13. findstr  ##可能等于grep
+14. taskkill #等于kill
+15. firewall
+16. 用户管理 lusrmgr.msc  
+17. mmc ##进入管理控制台
+
+
+######
+windows开启winrm的前提条件,把网络模式该为专用模式
+	1.管理员模式下打开powershell ,输入
+	 enable-psremoting -force
+
+windows
+	1.net user  #查看所有用户
+	2.net user makuo 1234 /add  # 创建用户马阔,密码是1234
+	3.net localgroup   #查看所有用户组
+	4.net user /?
+	5.net localgroup "Remote Management Users" makuo /add  #将马阔这个用户添加到远程管理员这个组

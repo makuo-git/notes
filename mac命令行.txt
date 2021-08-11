@@ -1,0 +1,1 @@
+1. mac 端类似systemctl 的launchctl 参考文档：https://www.cnblogs.com/gujiande/p/9359184.html
