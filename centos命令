@@ -6,3 +6,6 @@
     yum deplist ansible#查找ansible的所有依赖，仅供查看，下面才是真的的命令
     repotrack ansible
     #参考网站：https://www.wpshe.com/336.html 
+
+3.rpm 强制安装
+	rpm -ivh ansible --nodeps --force
