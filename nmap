@@ -1,0 +1,2 @@
+1.udp ping
+	nmap -sU 172.16.200.51  -p 161 -Pn
