@@ -16,6 +16,7 @@ install-winfeature
 uninstall-winfeature
 start-service
 stop-service
+sc delete "filebeat"
 
 #####
 1.到自动启动文件夹，win + R 输入shell:getstartup
