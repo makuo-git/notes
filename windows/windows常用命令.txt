@@ -5,6 +5,13 @@ get-service  #获取所有服务
 update-help -uiculture en-us #下载帮助文档，类似man手册
 get-verb #获取动作
 
+
+====== 获取帮助信息 ===========
+
+get-help  get-service
+get-command get-service  -syntax
+
+
 netstat /help 帮助命令的常规使用
 
 Install-WindowsFeature -name DHCP,DNS -restart
@@ -16,7 +23,7 @@ install-winfeature
 uninstall-winfeature
 start-service
 stop-service
-sc delete "filebeat"
+sc.exe delete "filebeat"  #删除成功使用返回信息的
 
 #####
 1.到自动启动文件夹，win + R 输入shell:getstartup
