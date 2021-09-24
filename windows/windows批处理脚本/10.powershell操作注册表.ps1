@@ -1,7 +1,12 @@
-# æ³¨å†Œè¡¨æ˜¯åšä»€ä¹ˆç”¨çš„ï¼Ÿ
-	#1.ç»Ÿä¸€ç®¡ç†è½¯ç¡¬ä»¶çš„é…ç½®ä¿¡æ¯ï¼Œæé«˜ç³»ç»Ÿçš„ç¨³å®šæ€§å’Œå®‰å…¨æ€§
-	#2.ITäººå‘˜ç®¡ç†æ›´åŠ æ–¹ä¾¿
+ # ×¢²á±íÊÇ×öÊ²Ã´ÓÃµÄ£¿
+       #1.Í³Ò»¹ÜÀíÈíÓ²¼þµÄÅäÖÃÐÅÏ¢£¬Ìá¸ßÏµÍ³µÄÎÈ¶¨ÐÔºÍ°²È«
+       #2.ITÈËÔ±¹ÜÀí¸ü¼Ó·½±ã
 
-#é€šè¿‡powershellè¿›å…¥æ³¨å†Œè¡¨
-cd hkcu:  #è¿›å…¥ current user çš„æ³¨å†Œè¡¨
-cd hklm:  #è¿›å…¥åˆ° local machine çš„æ³¨å†Œè¡¨
+regedit  #¿ÉÊÓ»¯×¢²á±í½çÃæ
+ #Í¨¹ýpowershell½øÈë×¢²á±í
+
+
+cd hkcu: #½øÈë current user µÄ×¢²á±í
+cd hklm:  #½øÈëµ½ local machine µÄ×¢²á±í
+
+reg  /? #²Ù×÷×¢²á±í

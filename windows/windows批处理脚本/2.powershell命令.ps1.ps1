@@ -56,4 +56,15 @@ $b=(1,4,5); $b -notcontains 4 #是否不包含
 
 
 
+systeminfo  #查看系统信息
 
+net user #查看所以用户
+net user makuo 1234 /add  
+net user makuo /delete #删除用户
+
+net localgroup #查看系统权限组
+net localgroup administrators makuo /add #添加makuo到administrators 组，使有管理权限
+
+tasklist
+
+wmic  # windows mangement instrumentation  windows管理工具

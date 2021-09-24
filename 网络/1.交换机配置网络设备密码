@@ -1,0 +1,6 @@
+一、进入 user-interface console 0
+	user-interface console 0 
+		set authentication password  cipher 1234
+		# 设置认证密码               密码   1234
+
+
