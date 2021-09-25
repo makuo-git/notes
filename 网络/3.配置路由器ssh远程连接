@@ -1,0 +1,12 @@
+一、进入用户接口
+	user-interface vty 0 4
+		authentication-mode aaa
+		aaa
+			local-user makuo password 1234
+			local-user makuo privilege level 3
+			local-user makuo server-type telnet
+
+二、password-rsa非对称加密算法远程访问管理路由器
+	rsa local-key-pair create  #默认确认即可
+    	peer-public-key end #结束配置
+		stelnet server enable

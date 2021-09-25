@@ -1,0 +1,16 @@
+一、系统视图下开启dhcp
+	 dhcp enable
+二、建立dhcp地址池
+	ip pool 192.168.1.0wangduan
+		network 192.168.1.0 mask 255.255.255.0
+		gateway-list 192.168.1.1 
+		dns-list 223.5.5.5
+		lease day 0 hour 3
+	  # 租约
+		
+	    excluded-ip-address 192.168.1.220 192.168.1.250 # 保留地址
+		static-bind ip-address 192.168.1.2 mac-address 5489-984A-3B7B  #为设备 绑定ip地址
+三、给端口配置ip地址，并绑定dhcp
+		interface g0/0/1
+			ip addr 192.168.1.1
+			dhcp select global
