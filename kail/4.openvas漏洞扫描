@@ -1,5 +1,0 @@
-1.openvas可以做什么
-	openvas是一款针对主要针对 主机系统 层面的漏洞扫描工具
-2.如何安装
-	配置好apt源
-	apt-get install openvas
